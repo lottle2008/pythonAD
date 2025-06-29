@@ -1,0 +1,29 @@
+# 数据挖掘与商务智能项目依赖包
+# 核心数据处理库
+pandas
+numpy
+
+# 可视化库
+matplotlib
+seaborn
+plotly
+
+# 科学计算
+scipy
+
+# Jupyter环境
+jupyter
+ipykernel
+
+# 可选的高级可视化库
+bokeh
+altair
+
+# 统计分析
+statsmodels
+
+# 图像处理
+pillow
+
+# 字体支持 (用于中文显示)
+fonttools 

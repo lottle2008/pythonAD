@@ -1,0 +1,59 @@
+{
+    "products": [
+        {
+            "id": "P001",
+            "name": "iPhone 15",
+            "category": "手机",
+            "price": 6999,
+            "specs": {
+                "color": [
+                    "黑色",
+                    "白色",
+                    "蓝色"
+                ],
+                "storage": [
+                    "128GB",
+                    "256GB",
+                    "512GB"
+                ],
+                "screen": "6.1英寸"
+            }
+        },
+        {
+            "id": "P002",
+            "name": "MacBook Pro",
+            "category": "笔记本",
+            "price": 12999,
+            "specs": {
+                "color": [
+                    "深空灰",
+                    "银色"
+                ],
+                "storage": [
+                    "256GB",
+                    "512GB",
+                    "1TB"
+                ],
+                "screen": "14英寸"
+            }
+        },
+        {
+            "id": "P003",
+            "name": "iPad Air",
+            "category": "平板",
+            "price": 4799,
+            "specs": {
+                "color": [
+                    "银色",
+                    "玫瑰金",
+                    "天蓝色"
+                ],
+                "storage": [
+                    "64GB",
+                    "256GB"
+                ],
+                "screen": "10.9英寸"
+            }
+        }
+    ]
+}

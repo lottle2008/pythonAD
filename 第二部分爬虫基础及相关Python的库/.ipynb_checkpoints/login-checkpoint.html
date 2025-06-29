@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: green;
+        }
+        .hidden {
+            display: none;
+        }
+        .big-message {
+            font-size: 2em;
+            color: #28a745;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container" id="login-container">
+        <h2>登录</h2>
+        <input type="text" id="username" placeholder="用户名">
+        <input type="password" id="password" placeholder="密码">
+        <button onclick="login()">登录</button>
+    </div>
+
+    <div class="message hidden" id="message"></div>
+
+    <script>
+        function login() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            var message = document.getElementById("message");
+            var loginContainer = document.getElementById("login-container");
+
+            if (username === "zcfe" && password === "123456") {
+                // 隐藏登录框
+                loginContainer.classList.add('hidden');
+                // 显示欢迎信息
+                message.classList.remove('hidden');
+                message.classList.add('big-message');
+                message.innerHTML = "欢迎加入 郑州财经学院 商务数据采集与分析课程<br>这里你能学到强大的爬虫技术 和数据分析技术";
+            } else {
+                message.style.color = 'red';
+                message.classList.remove('hidden');
+                message.innerHTML = "用户名或密码错误！";
+            }
+        }
+    </script>
+
+</body>
+</html>
