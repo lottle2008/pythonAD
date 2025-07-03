@@ -1,7 +1,1 @@
-<span class="title">肖申克的救赎</span>
-<span class="title">霸王别姬</span>
-<span class="title">星际穿越</span>
-#content > div > div.article > ol > li:nth-child(8) > div > div.info > div.hd > a > span:nth-child(1)
-#content > div > div.article > ol > li:nth-child(3) > div > div.info > div.hd > a > span:nth-child(1)
-/html/body/div[3]/div[1]/div/div[1]/ol/li[3]/div/div[2]/div[1]/a/span[1]
-/html/body/div[3]/div[1]/div/div[1]/ol/li[8]/div/div[2]/div[1]/a/span[1]
+dddddddddddd
